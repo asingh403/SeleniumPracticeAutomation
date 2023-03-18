@@ -1,11 +1,12 @@
-package com.selenium.leetcode;
+package com.easy.leetcode;
 
 import java.util.Arrays;
 
 public class SwapAdjacentElements {
 
     public static void main(String[] args) {
-        int[] inputArray = {1, 2, 3, 4, 5};
+        //int[] inputArray = {1, 2, 3, 4, 5};
+        int[] inputArray = {1, 2};
         int[] outputArray = swapAdjacentElements(inputArray);
         System.out.println("Input array: " + Arrays.toString(inputArray));
         System.out.println("Output array: " + Arrays.toString(outputArray));
